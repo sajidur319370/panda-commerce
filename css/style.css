@@ -1,0 +1,17 @@
+/* NAVBAR CSS */
+
+
+/*BACKGROUND COLOR CSS */
+
+.primary-bg {
+    background-color: #fceceb;
+}
+
+.white-bg {
+    background-color: #ffff;
+}
+
+.button-bg {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%);
+    color: white;
+}

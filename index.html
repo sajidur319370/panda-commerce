@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <!-- BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/fav-panda.png" type="fav-panda">
+</head>
+
+<body>
+    <!-- HEADER PART GOES HERE -->
+    <header>
+        <!-- ////////////////////////////////////////////////////////////////////////////////////////
+            NAVBAR GOES HERE 
+        ///////////////////////////////////////////////////////////////////////////////////////////-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-5">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////
+            BANNER SLIDER GOES HERE
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <section id="banner" class="banner mt-5">
+            <div class="container py-5">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- ITEM-1 -->
+                        <div class="carousel-item active primary-bg rounded">
+                            <div class=" row p-5 d-flex align-items-center">
+                                <div class="col-lg-7">
+                                    <h2 class="banner-item-title fs-1 fw-bold pt-1 ">Mega LCD TV For Sports</h2>
+                                    <p class="banner-item-details fs-5 pt-1 ">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                    <p class="banner-item-price fw-bold fs-1 ">S420</p>
+                                    <div class="button">
+                                        <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 ">
+                                    <img src="./images/banner-images/tv.png " class="d-block w-100 " alt="tv">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM-2 -->
+                        <div class="carousel-item primary-bg rounded">
+                            <div class=" row p-5 d-flex align-items-center">
+                                <div class="col-lg-7">
+                                    <h2 class="banner-item-title fs-1 fw-bold pt-1 ">Cool Dude Headphone</h2>
+                                    <p class="banner-item-details fs-5 pt-1 ">This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                    <p class="banner-item-price fw-bold fs-1 ">$420</p>
+                                    <div class="button">
+                                        <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 ">
+                                    <img src="./images/banner-images/headphone.png " class="d-block w-100 " alt="headphone">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM-3 -->
+                        <div class="carousel-item primary-bg rounded">
+                            <div class=" row p-5 d-flex align-items-center">
+                                <div class="col-lg-7">
+                                    <h2 class="banner-item-title fs-1 fw-bold pt-1 ">X-Box for your living room</h2>
+                                    <p class="banner-item-details fs-5 pt-1 "> This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                                    <p class="banner-item-price fw-bold fs-1 ">$420</p>
+                                    <div class="button">
+                                        <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 ">
+                                    <img src="./images/banner-images/xbox.png " class="d-block w-100 " alt="xbox">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- MAIN PART GOES HERE -->
+    <main>
+        <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////
+             PRODUCT CATAGORIES
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <section id="product-catagories" class="product-catagories my-5">
+            <div class="container py-5 primary-bg">
+                <div class="row g-2">
+                    <div class="col-12 col-lg-4 col-md-6 shadow-lg">
+                        <div class="catagory p-4 d-flex align-items-center justify-content-between white-bg">
+                            <h2 class="product-name fw-bold fs-2">Watch</h2>
+                            <img src="./images/categories/watch.png" alt="watch" width="100px" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 shadow-lg">
+                        <div class="catagory p-4 d-flex align-items-center justify-content-between white-bg">
+                            <h2 class="product-name fw-bold fs-2">Bag</h2>
+                            <img src="./images/categories/bag.png" alt="Bag" width="100px" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 shadow-lg">
+                        <div class="catagory p-4 d-flex align-items-center justify-content-between white-bg">
+                            <h2 class="product-name fw-bold fs-2">Shoes</h2>
+                            <img src="./images/categories/shoes.png" alt="Shoes" width="100px" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /////////////////////////////////////////////////////////////////////////////////////////////
+            PRODUCT SHOWCASE 
+        /////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <section id="product-showcase" class="product-showcase my-5">
+            <!-- //////////////WATCH //////////////////////-->
+            <div class="product container primary-bg py-5">
+                <div class="product-heading text-center pb-3">
+                    <h1 class="fw-bold fs-1">Watch</h1>
+                </div>
+                <div class="product-all">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <!-- ITEM-1 -->
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="./images/watch/watch-1.png" class="card-img-top" alt="watch-1">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-2">Watch-1</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="button mx-3">
+                                    <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM-2 -->
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="./images/watch/watch-2.png" class="card-img-top" alt="watch-2">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-2">Watch-2</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                                <div class="button mx-3">
+                                    <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM-3 -->
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="./images/watch/watch-3.png" class="card-img-top" alt="watch-3">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-2">Watch-3</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                </div>
+                                <div class="button mx-3">
+                                    <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ////////////////Bag/////////////////// -->
+            <div class="product container primary-bg py-5 mt-5">
+                <div class="product-heading text-center pb-3">
+                    <h1 class="fw-bold fs-1">Bag</h1>
+                </div>
+                <div class="product-all">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <!-- ITEM-1 -->
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="./images/bags/bag-1.png" class="card-img-top" alt="bag-1">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-2">Red Bag</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="button mx-3">
+                                    <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM-2 -->
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="./images/bags/bag-2.png" class="card-img-top" alt="bag-2">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-2">Blue Bag</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                                <div class="button mx-3">
+                                    <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM-3 -->
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="./images/bags/bag-3.png" class="card-img-top" alt="bag-3">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-2">Black Bag</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                </div>
+                                <div class="button mx-3">
+                                    <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /////////////////////////shoes/////////////////////////////// -->
+            <div class="product container primary-bg py-5 mt-5">
+                <div class="product-heading text-center pb-3">
+                    <h1 class="fw-bold fs-1">Shoes</h1>
+                </div>
+                <div class="product-all">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <!-- ITEM-1 -->
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="shoe-1">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-2">Shoe-1</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                                <div class="button mx-3">
+                                    <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM-2 -->
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="shoe-2">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-2">Shoe-2</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                                <div class="button mx-3">
+                                    <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM-3 -->
+                        <div class="col">
+                            <div class="card h-100 p-3">
+                                <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="shoe-3">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-2">Shoe-3</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                </div>
+                                <div class="button mx-3">
+                                    <button href="#" class="btn button-bg rounded fw-bold my-3">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        Form
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <section id="form" class="form">
+            <div class="container primary-bg py-5 my-5">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-6">
+                        <h1 class="form-title fw-bold fs-1">LET'S STAY IN TOUCH</h1>
+                        <p>Get updates on sales, specials and more</p>
+                        <form action="">
+                            <input type="email" name="emailName" id="emailName" placeholder="Your Email">
+                            <div class="button">
+                                <button href="#" class="btn button-bg rounded fw-bold my-3">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER PART GOES HERE -->
+    <footer id="footer">
+        <div class="footer text-center">
+            <p><small> &COPY;2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+        </div>
+    </footer>
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
